@@ -974,10 +974,8 @@ const ProjectCard = ({ title, tags, desc, year, accentColor, index, url }) => {
 /* ─── PROJECTS ───────────────────────────────────────── */
 const Projects = () => {
   const projects=[
-    {title:"Void Interface", tags:["WebGL","React","GSAP"],        desc:"An immersive 3D web experience for a Tokyo-based architecture studio with real-time building visualization.", year:"2024",accentColor:ACCENT,  url:"https://github.com"},
-    {title:"Neon Horizons",  tags:["Three.js","Shaders","Motion"], desc:"Interactive documentary with scroll-driven storytelling and custom GLSL shaders.",                           year:"2024",accentColor:ACCENT2, url:"https://github.com"},
-    {title:"Stasis OS",      tags:["React","Canvas","AI"],         desc:"A generative art platform powered by machine learning. Users define parameters; the system composes visuals.", year:"2023",accentColor:ACCENT3, url:"https://github.com"},
-    {title:"Echo Protocol",  tags:["WebAudio","SVG","Canvas"],     desc:"Real-time audio visualizer with procedurally generated landscapes responding to music frequency data.",        year:"2023",accentColor:ACCENT,  url:"https://github.com"},
+    {title:"FinanceFlow", tags:["Next.js","TypeScript","Supabase"], desc:"A personal budgeting and forecasting web app built to solve my own struggle with hitting financial goals. Tracks spending, visualizes trends, and helps users make data-driven money decisions.", year:"2025",accentColor:ACCENT, url:"https://financeflow-phi.vercel.app"},
+    {title:"Momentum", tags:["Next.js","TypeScript","Supabase"], desc:"My first project, built during NS to stay disciplined without overthinking my routine. A clean ad-free habit tracker with streak counting and progress visualization.", year:"2025",accentColor:ACCENT2, url:"https://habit-tracker-opal-nine.vercel.app"},
   ];
   return (
     <Section id="projects" style={{ background:"linear-gradient(180deg,var(--bg),var(--surface),var(--bg))" }}>

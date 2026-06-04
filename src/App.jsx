@@ -975,7 +975,7 @@ const ProjectCard = ({ title, tags, desc, year, accentColor, index, url }) => {
 const Projects = () => {
   const projects=[
     {title:"FinanceFlow", tags:["Next.js","TypeScript","Supabase"], desc:"A personal budgeting and forecasting web app built to solve my own struggle with hitting financial goals. Tracks spending, visualizes trends, and helps users make data-driven money decisions.", year:"2025",accentColor:ACCENT, url:"https://financeflow-phi.vercel.app"},
-    {title:"Momentum", tags:["Next.js","TypeScript","Supabase"], desc:"My first project, built during NS to stay disciplined without overthinking my routine. A clean ad-free habit tracker with streak counting and progress visualization.", year:"2025",accentColor:ACCENT2, url:"https://habit-tracker-opal-nine.vercel.app"},
+    {title:"Momentum", tags:["Next.js","TypeScript","Supabase"], desc:"My first project, built during NS to stay disciplined without overthinking my routine. A clean ad-free habit tracker with streak counting and progress visualization.", year:"2025",accentColor:ACCENT2, url:"habit-tracker-eosin-zeta.vercel.app"},
   ];
   return (
     <Section id="projects" style={{ background:"linear-gradient(180deg,var(--bg),var(--surface),var(--bg))" }}>

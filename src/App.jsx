@@ -829,8 +829,8 @@ const SectionLabel = ({ num, label }) => (
 const About = () => {
   const stats=[
     {val:"1+",  label:"Years Experience"},
-    {val:"3+",label:"Projects Done"},
-    {val:"1+", label:"Happy Clients"},
+    {val:"2",label:"Projects Done"},
+    {val:"0", label:"Happy Clients"},
     {val:"∞",   label:"Cups of Coffee"},
   ];
   return (
